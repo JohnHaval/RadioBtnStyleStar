@@ -53,15 +53,11 @@
                             </Grid.ColumnDefinitions>
                             <DockPanel Grid.Column="0">
                                 <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"/>
-                                        <ColumnDefinition Width="0"/>
-                                    </Grid.ColumnDefinitions>
-                                    <Polygon Stroke="Gray" StrokeThickness="1" Fill="Gray" Panel.ZIndex="-2" x:Name="radioButtonBorder" Margin="1,1,2,1" VerticalAlignment="Center" Grid.Column="0" FillRule="Nonzero" HorizontalAlignment="Center" 
+                                    <Polygon Stroke="Gray" StrokeThickness="1" Fill="Gray" Panel.ZIndex="-1" x:Name="radioButtonBorder" Margin="1,1,2,1" VerticalAlignment="Center" FillRule="Nonzero" HorizontalAlignment="Center" 
 Points="3,9 6,1 9,9 1.9,4 10,4">
                                     </Polygon>
-                                    <Grid x:Name="markGrid" Margin="2">
-                                        <Polygon Stroke="Black" StrokeThickness="1" Fill="Black" Panel.ZIndex="-2" x:Name="optionMark" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="1,1,2,1" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Grid.Column="0" FillRule="Nonzero" Opacity="0" 
+                                    <Grid x:Name="markGrid">
+                                        <Polygon Stroke="Black" StrokeThickness="1" Fill="Black" x:Name="optionMark" HorizontalAlignment="Center" Margin="1,1,2,1" VerticalAlignment="Center" FillRule="Nonzero" Opacity="0" 
 Points="3,9 6,1 9,9 1.9,4 10,4">
                                         </Polygon>
                                     </Grid>
