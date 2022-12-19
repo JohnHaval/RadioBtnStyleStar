@@ -92,7 +92,7 @@ Points="3,9 6,1 9,9 1.9,4 10,4">
         </Style>
     </Window.Resources>
     <DockPanel>
-        <GroupBox Header="Пусички">
+        <GroupBox Header="Пусички" FontSize="16">
             <StackPanel>
                 <RadioButton Content="Пуська 1" HorizontalAlignment="Left"/>
                 <RadioButton Content="Лучшая пуська" HorizontalAlignment="Left"/>
